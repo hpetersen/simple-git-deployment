@@ -10,5 +10,5 @@ Usage
 -----------------------------
 
 * Configure `deploy.php` with a new secure key in the GET-request code on line 7.
-* Upload `deploy.php` to the webserver and put it somewhere that's accessible from the Internet. 
+* Upload `deploy.php` to the webserver and put it somewhere in the root of youre website e.g. /var/www/yourewebsite. 
 * Go to WebHooks in Github or any other service and set the post-recive url to `http://example.com/deploy.php?YOURESECUREKEY`
